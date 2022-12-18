@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+body { width:auto; min-width:100%; }
+html { width: 100%; }
+
+/* Header styles */
+
+header {
+    width: 100%;
+    background-color: rgb(132,132,124);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1em; */
+    /* border: solid; */
+    /* flex: 1; */
+}
+
+header .contact-details{
+    padding: 1em;
+    /* border: solid; */
+    display: flex;
+    flex: 0 1 0;
+    /* gap: 5em; */
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    /* min-width: 0; */
+    /* white-space: nowrap; */
+}
+
+header .contact-details div{
+    /* padding: 2em; */
+    display: flex;
+    gap: 1em;
+
+}
+
+header .socials{
+    /* border: solid; */
+    display: flex;
+    flex: 0 1 0;
+    justify-content: right;
+    /* min-width: 0; */
+}
+
+/* Main body styles */
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    flex: 1;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 25vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.sidebar h2 {
+    padding: 1em;
+}
+
+/* Title styles */
+
+.title {
+    padding: 3em;
+    background-color: rgba(244,244,239,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 4em;
+}
+
+.logo {
+    /* border: solid; */
+    width: 200px;
+}
+
+/* page sections styles */
+
+.page-section {
+    /* width: 100vw; */
+    /* height: 25vh; */
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #b4b4b0;
+  }
+
+.page-section h2 {
+    margin-bottom: 1em;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery-img {
+    width: 15%;
+    aspect-ratio: 1;
+    background-color: beige;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+    /* border-radius: 50%; */
+  }  
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background: #cd486b;
+    color: white;
+  }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
